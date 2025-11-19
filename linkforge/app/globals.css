@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b0b;
+  --fg: #ffffff;
+}
+
+html, body { height: 100%; }
+body { color: var(--fg); background: radial-gradient(circle at 20% 20%, #14121c, #0b0b0b 55%); }
+
+.card { @apply bg-white/5 border border-white/10 rounded-xl; }
+.btn { @apply inline-flex items-center justify-center rounded-md px-4 py-2 transition; }
+.btn-primary { @apply bg-brand text-white hover:bg-brand-dark; }
+.btn-ghost { @apply bg-white/10 border border-white/20 hover:bg-white/20; }
+

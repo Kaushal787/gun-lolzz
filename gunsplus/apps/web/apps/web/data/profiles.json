@@ -1,0 +1,59 @@
+{
+  "profiles": [
+    {
+      "username": "ZEUS",
+      "displayName": "ZΞUS",
+      "bio": "\"They see the smoke and call it vibe ,\nI see a habit I'm trying to survive.\"",
+      "avatarUrl": "/uploads/1763498162710-fa82f9ae-4557-4a26-893c-e21dc5c8912f.jpg",
+      "discordTag": "zeus_787",
+      "discordStatus": "dnd",
+      "guildTag": "ツフ",
+      "guildTagColor": null,
+      "location": "India, Delhi",
+      "links": [
+        {
+          "label": "spotify",
+          "url": "https://open.spotify.com/user/31jq6go5fb32vyh3aqcypl7bgopi?si=fb87d99eff804b7d"
+        },
+        {
+          "label": "",
+          "url": ""
+        }
+      ],
+      "theme": {
+        "backgroundUrl": "/uploads/1763499979783-4de94908-f013-4c57-bd06-399d3032c753.mp4",
+        "accent": "#000000",
+        "text": "White",
+        "audioUrl": "/uploads/1763492764365-3092422e-fc53-474b-910d-b2dab90b9cf4.mp3",
+        "profileBlur": 3,
+        "usernameEffect": "glow",
+        "backgroundEffect": "sparkles",
+        "profileOpacity": 0.07,
+        "swapBoxColors": false,
+        "avatarDecoration": true,
+        "useDiscordAvatar": true,
+        "iconColor": "Black",
+        "gradientEnabled": true,
+        "monochromeIcons": false,
+        "backgroundColor": ""
+      }
+    },
+    {
+      "username": "ZEUS",
+      "displayName": "ZEUS",
+      "bio": null,
+      "avatarUrl": "/uploads/1763498012536-705bd3d1-6482-4190-b617-19b38d2d8112.jpg",
+      "discordTag": "zeus_787",
+      "links": [
+        {
+          "label": "Spotify",
+          "url": "https://open.spotify.com/user/31jq6go5fb32vyh3aqcypl7bgopi?si=fb87d99eff804b7d"
+        }
+      ],
+      "theme": {
+        "backgroundUrl": "/uploads/1763498066188-fc1c0e94-55d5-4f5f-b251-0cf465b8ed4e.mp4",
+        "audioUrl": "/uploads/1763498068888-d2cc8528-6e84-479c-9b70-0e5141fc9e18.mp3"
+      }
+    }
+  ]
+}
