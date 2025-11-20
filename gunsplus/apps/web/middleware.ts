@@ -16,8 +16,11 @@ export function middleware(req: NextRequest) {
     return NextResponse.next()
   }
 
-  // Allow API generally, but protect admin API by cookie
+  // Allow API generally; allow admin login endpoint; protect other admin API by cookie
   if (pathname.startsWith('/api')) {
+    if (pathname.startsWith('/api/admin/login')) {
+      return NextResponse.next()
+    }
     if (pathname.startsWith('/api/admin')) {
       const admin = req.cookies.get('admin')?.value === '1'
       if (!admin) return new NextResponse('Forbidden', { status: 403 })
@@ -43,4 +46,3 @@ export function middleware(req: NextRequest) {
 export const config = {
   matcher: ['/((?!_next/static).*)'],
 }
-
